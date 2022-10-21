@@ -1,0 +1,60 @@
+p {
+
+   color:red;
+
+  }
+  h3{
+
+      color:green;
+  }
+
+  .classtexto1{
+
+    color:blueviolet;
+  }
+
+  .classtexto5 {
+
+    color:yellow;
+
+  }
+
+  #textounico {
+
+    color:brown;
+  }
+
+
+  #divContenido {  /*Esto es el CSS del div*/
+
+    background-color: silver;
+    height: 200px;
+    width: 33%;  /*Este es el ancho  total del div*/
+    text-align: justify;  /*Como se va a justificar*/
+    margin-top: 100px;  /*Cuanto va tener dede margen superior del ultumo texto*/
+    margin-left:33%;    /*Cuanto va a estar de margen a la izquierda*/
+    margin-bottom: 200px;
+
+    /*Codificacion para poner un margen interno en el div*/
+    padding-top: 30px; /*Este es un margen interno en el div*/
+    padding-bottom: 30px; /*Este es un margen interno en el div*/
+    padding-left: 30px; /*Este es un margen interno en el div*/
+    padding-right: 30px; /*Este es un margen interno en el div*/
+    border-radius: 50px;
+
+  }
+
+
+  body{  /*Le ponemos una imagen fondo de pantalla, la centramos, no la dejamos repetir, y cubrimos todo*/ 
+    background-position:  center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
