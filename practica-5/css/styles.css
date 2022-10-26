@@ -1,0 +1,95 @@
+body{
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+
+#contentBannerContacto {
+  background-image: url('../img/fondo-contacto.jpg');
+  height: 400px;
+  width: 100%;
+}
+
+
+#fondoBannerContacto{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(158, 149, 149, 0.5);
+    
+}
+
+
+#contentTexto{
+   text-align: center;
+   color:white;
+   padding-top: 50px;   /*Ponemos un margen superior*/
+   padding-left: 250px;
+   padding-right: 205px;
+   /*Bajamos la tipografia de https://www.dafont.com/es/ */
+
+}
+
+
+/*Usamos una fuenta que bajamos en nuestra pagina*/
+@font-face{
+   font-family: "MilkyHoney";
+src:url("../fonts/Milky\ Honey.ttf");
+}
+
+h1{
+   font-family: "MilkyHoney";
+}
+
+
+#contentform{
+   background-color: white;
+   width: 25%;
+   height: 500px;
+   /*Ahora vamos a linea el div*/
+    margin-left: 33%;
+   /* Alineamos el contenido interno del label */
+   text-align: center;
+   margin-top: -150px; /*Finalmente lo alineamos -100 hacia arriba para que se vea que flota*/
+   padding-top 50px;
+
+   /*Bajamos el codifgo de esa pagina para hacer un sobreado al form */
+   /*https://www.cssmatic.com/box-shadow */
+
+   -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+   margin-bottom: 150px;
+
+}
+
+/*Ahora le indicamos que tan ancha va a estar la caja de texto*/
+input{  
+    width: 300px;
+    height: 25px; /*Que alto va tener la caja de texto*/
+    border-color: rgb(red, green, blue)  
+}
+
+button{  /*Le damos estilo al boton*/
+   width: 170px;
+   height: 30px;
+   border-radius: 20px;  /*Le decimos el boton que se hace con los bordes redondeados*/
+   color: white;
+   /*Ahora le vamos  indicar que el color del boton este degradado*/
+   /* https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28248\%2C80\%2C50\%2C1\%29\%200\%25\%2C\%20rgba\%28241\%2C111\%2C92\%2C1\%29\%2050\%25\%2C\%20rgba\%28246\%2C41\%2C12\%2C1\%29\%2051\%25\%2C\%20rgba\%28240\%2C47\%2C23\%2C1\%29\%2071\%25\%2C\%20rgba\%28231\%2C56\%2C39\%2C1\%29\%20100\%25\%29\%3B' */
+   background: rgba(147,206,222,1);
+   background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+
+
+   /*Ahora le vamos a poner un sombreado al boton*/
+   /*De se general el cofigo https://www.cssmatic.com/box-shadow */
+   -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
