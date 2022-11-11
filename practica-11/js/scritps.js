@@ -8,7 +8,7 @@ const settings = {
 	"url": "https://superhero-search.p.rapidapi.com/api/heroes",
 	"method": "GET",
 	"headers": {
-		"X-RapidAPI-Key": "9f4d61d421msh6a92b1f9e40dfc3p1bd0dbjsna2611f447d30",
+		"X-RapidAPI-Key": "1bd57deeefmshc106da32429b30cp1b2e22jsn8c464881a5b8",
 		"X-RapidAPI-Host": "superhero-search.p.rapidapi.com"
 	},
     dataType:'JSON',
