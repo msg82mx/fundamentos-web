@@ -1,0 +1,59 @@
+<head>
+     <!--Pegamos de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Declaramos el CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+
+</head>
+
+
+
+
+
+<--DEclaracion de jquery, bootstrap , y nuestro scrips de java scrips-->
+
+<!--Pegamos el script de jquery para poderlo  usar jquery en el scripts.js-->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
+ <!--Pegamos de bootstrap-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+ <!--Mandamos llamad nuestro  archivo jS propio-->
+ <script src="js/scripts.js"></script>
+
+
+
+
+
+
+
+There are mainly five class in grid system which are listed below:
+
+.col- Extra Small ( < 576 px )
+.col-sm- Small ( >= 576 px )
+.col-md- Medium ( >= 768 px )
+.col-lg- Large ( >= 992 px )
+.col-xl- Extra Large ( >= 1200 px )
+Bootstrap provides 12 columns per row which is made available in the Column class. So, you can control the width of column using specifying numbers in .col-*, where * means the width of the column in numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
